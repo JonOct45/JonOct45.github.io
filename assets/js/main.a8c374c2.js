@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjonoct45_github_io=self.webpackChunkjonoct45_github_io||[]).push([[179],{352:(e,o,t)=>{var r=t(928);t(294);t(935).render((0,r.Z)("h1",{},void 0,"Hello World"),document.getElementById("root"))}},e=>{e.O(0,[905,532,805,578,183],(()=>{return o=352,e(e.s=o);var o}));e.O()}]);

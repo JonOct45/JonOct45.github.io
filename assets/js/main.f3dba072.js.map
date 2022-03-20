@@ -1,0 +1,1 @@
+{"version":3,"file":"assets/js/main.f3dba072.js","mappings":";;;;;;;;AAAA;AACA;AAEA","sources":["webpack://jonoct45.github.io/./src/index.js"],"sourcesContent":["import React from 'react';\r\nimport ReactDOM from 'react-dom';\r\n\r\nReactDOM.render(\r\n    <h1>Hello World</h1>,\r\n  document.getElementById('root')\r\n);"],"names":[],"sourceRoot":""}
