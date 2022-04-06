@@ -1,3 +1,111 @@
+
 h1 {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body {
+    background-color: rgb(60, 190, 184);
+}
+#nav-list{
+    float: center;
+    margin: 0;
+}
+#nav-list li{
+    float: left;
+
+}
+section {
+    
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+
+div {
+    background-color: #494bd8;
+    overflow: auto;
+    width: 100%;
+    height: 400%;
+    right: 400%;
+    font-style: oblique;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#contactbar {
+    background-color: #080606;
+    overflow: auto;
+    width: 100%;
+    height: 400%;
+}
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+}
+#linkedin,#github {
+    display: flex;
+    justify-content: center;
+
+  ;
+    color: rgb(13, 75, 109);
+    padding: 14px 20px;
+    
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 12px;
+    font-size: 300%;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.sticky {
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: center;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+}
+
+footer img:hover {
+    opacity: 0.7;
 }
