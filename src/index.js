@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css"
+import {ProfileHeader} from "./profile"
+
+
 ReactDOM.render(
-    <h1>Hello World</h1>,
+  <ProfileHeader />,
+   
   document.getElementById('root')
 );
