@@ -93,3 +93,44 @@ footer {
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
+
+/*
+Github Tab 
+*/
+
+.dormmates-banner {
+background-image: url('http://drive.google.com/uc?export=view&id=1rV1P7mQ3FTo1eis3CQ5mLNrSVkqyaGbF');
+background-position: center;
+border-radius: 2rem;
+background-size: cover; 
+min-height: 6rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.network-banner {
+background-image: url('http://drive.google.com/uc?export=view&id=11G4AYXvUPuQHuY1SwiXF64j70uLOO85M');
+background-position: center;
+border-radius: 2rem;
+background-size: cover; 
+min-height: 6rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.fflogs-banner {
+background-image: url('http://drive.google.com/uc?export=view&id=1uF0Mqh4N77aVYhw093ghsZS-mormJjMk');
+background-position: center;
+border-radius: 2rem;
+background-size: cover; 
+min-height: 6rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
