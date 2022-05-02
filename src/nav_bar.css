@@ -1,0 +1,28 @@
+
+.navbar {
+    overflow: auto;
+    width: 20%;
+    height: 30%;
+    display: block;
+    position: 50%;
+    left: 50%;
+    border: 3px solid #73AD21;
+
+}
+
+button {
+    background-color: #110b06;
+    color: rgb(59, 37, 155);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 12px;
+}
+#div#navbar#a#first {
+    background-color: #080606;
+    overflow: auto;
+    width: 100%;
+    height: 400%;
+}
