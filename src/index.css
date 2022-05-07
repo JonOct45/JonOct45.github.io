@@ -9,7 +9,8 @@ html,body {
 }
 
 .figure-head {
-    background-color: aquamarine;
+    background-color: rgb(232, 167, 153);
+    border-radius: 7rem;
 }
 h1,h2,h3,h4 {
     font-family: 'Open Sans', Sans-Serif;
@@ -43,6 +44,7 @@ https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=shari
 background-size: cover; 
 min-height: 20rem;
 display: flex;
+
 justify-content: center;
 align-items: center;
 flex-direction: column;
@@ -103,12 +105,20 @@ background-image: url('http://drive.google.com/uc?export=view&id=1rV1P7mQ3FTo1ei
 background-position: center;
 border-radius: 2rem;
 background-size: cover; 
+border: 3px solid #cf7849;
 min-height: 6rem;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+transition: 75ms ease-in-out;
 
+}
+
+.dormmates-banner:hover{
+    transform: scale(1.1);
+    transform-origin: center;
+    box-shadow: rgba(214, 85, 209, 0.25) 5px 5px 10px;
 }
 
 .network-banner {
@@ -116,6 +126,7 @@ background-image: url('http://drive.google.com/uc?export=view&id=11G4AYXvUPuQHuY
 background-position: center;
 border-radius: 2rem;
 background-size: cover; 
+border: 3px solid #cf7849;
 min-height: 6rem;
 display: flex;
 justify-content: center;
@@ -128,6 +139,7 @@ background-image: url('http://drive.google.com/uc?export=view&id=1uF0Mqh4N77aVYh
 background-position: center;
 border-radius: 2rem;
 background-size: cover; 
+border: 3px solid #cf7849;
 min-height: 6rem;
 display: flex;
 justify-content: center;
