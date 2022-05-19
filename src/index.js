@@ -1,22 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./index.css"
+import "./index.css";
 
 import "./contact.css"
 
 
 
-const App = () => {
+
+class Mycomponent extends React.Component {
+  render() {
     return (
-        <div> 
-          <div id="contactbar">
-            <Contact />
-            
-          </div>
-            
-         
-        </div>
-        
-    )
+      <div>Testing</div>
+
+  );}
 }
 
+
+ReactDOM.render(<Mycomponent />, document.getElementById('root'));
