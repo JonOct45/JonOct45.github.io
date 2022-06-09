@@ -70,6 +70,9 @@ module.exports = function(_env, argv) {
     resolve: {
       extensions: [".js", ".jsx"]
     },
+    externals: {
+        'react': 'React'
+    },
     plugins: [
         isProduction &&
         new MiniCssExtractPlugin({

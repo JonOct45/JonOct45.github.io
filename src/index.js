@@ -1,19 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css";
-
-import "./contact.css"
-
+import App from './App';
 
 
 
-class Mycomponent extends React.Component {
-  render() {
-    return (
-      <div>Testing</div>
 
-  );}
-}
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
-ReactDOM.render(<Mycomponent />, document.getElementById('root'));
+
+// ReactDOM.render(<Mycomponent />, document.getElementById('root'));

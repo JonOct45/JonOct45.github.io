@@ -1,0 +1,15 @@
+.heroban {
+    background-image: url('http://drive.google.com/uc?export=view&id=1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC');
+    background-position: center;
+    border-radius: 3rem;
+    /*
+    https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=sharing
+    https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=sharing*/
+    background-size: cover; 
+    min-height: 20rem;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }

@@ -1,0 +1,7 @@
+h1,h2,h3,h4 {
+    font-family: 'Open Sans', Sans-Serif;
+}
+
+p {
+    max-width: 55rem;
+}

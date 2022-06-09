@@ -20,6 +20,7 @@
     "url": "https://github.com/JonOct45/jonoct45.github.io/issues"
   },
   "homepage": "https://github.com/JonOct45/jonoct45.github.io/react-gh-pages",
+ 
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/plugin-proposal-class-properties": "^7.16.7",

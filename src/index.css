@@ -1,4 +1,22 @@
 
+/* body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */
+/*
+New Code above. Old Below
+*/
+/*
+
 html,body {
     padding: 0;
     margin: 0;
@@ -29,18 +47,18 @@ header {
     top: 0;
     background: white;
 }
+*/
+
 /*
 Hero Banner 
 
 
 */
+/*
 .heroban {
 background-image: url('http://drive.google.com/uc?export=view&id=1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC');
 background-position: center;
 border-radius: 3rem;
-/*
-https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=sharing
-https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=sharing*/
 background-size: cover; 
 min-height: 20rem;
 display: flex;
@@ -49,14 +67,14 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
-
+*/
 
 
 /*
 Navigation Bar
 
 */
-
+/*
 nav { 
     display: inline-flex;
     justify-content: center;
@@ -72,12 +90,12 @@ nav > a {
 nav > a:hover {
     color: brown;
 }
-
+*/
 /*
 Secionns
 
 */
-
+/*
 section {
     padding: 1rem;
 }
@@ -95,11 +113,12 @@ footer {
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
+*/
 
 /*
 Github Tab 
 */
-
+/*
 .dormmates-banner {
 background-image: url('http://drive.google.com/uc?export=view&id=1rV1P7mQ3FTo1eis3CQ5mLNrSVkqyaGbF');
 background-position: center;
@@ -146,3 +165,4 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+*/
