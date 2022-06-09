@@ -9,7 +9,7 @@ import "./contact.css"
 const App = () => {
     return (
         <div> 
-          <div id="contactbar">
+          <div id="contactbar" class="divtest">
             <Contact />
             
           </div>
