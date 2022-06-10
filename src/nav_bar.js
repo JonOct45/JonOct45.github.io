@@ -8,14 +8,24 @@ export class NavBar extends React.Component {
 
 render() {
     return (
-        <div class="navbar">
-            
-            <button>Google</button>
-            <button id="first" href="https://www.facebook.com/">Facebook</button>
-            <button href="https://www.youtube.com/">Youtube</button>
-            <button href="https://www.instagram.com/">Instagram</button>
-            <button href="https://www.twitter.com/">Twitter</button>
-            
+        <header>
+        <div className="figure-head">
+          <figure>Jon M</figure>
         </div>
+        
+        <nav>
+    
+          <a href="./">Home</a>
+          <a href="./github">GitHub</a>
+          <a href="#aboutme">About Me</a>
+          <a href="#photography">Photography</a>
+          <a href="">Contact</a>
+          <a href="">Monster Bros</a>
+    
+    
+        </nav>
+    
+    
+      </header>
     ); }
 }

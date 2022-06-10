@@ -1,88 +1,15 @@
+section {
+    padding: 1rem;
+    font-family: 'Work Sans', Sans-Serif;
+}
 
-html,body {
+/* body {
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', Sans-Serif;
     font-weight: 700;
-    background-color : #ce9770;
-
-}
-
-.figure-head {
-    background-color: rgb(232, 167, 153);
-    border-radius: 7rem;
-}
-h1,h2,h3,h4 {
-    font-family: 'Open Sans', Sans-Serif;
-}
-
-p {
-    max-width: 55rem;
-}
-
-header {
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background: white;
-}
-/*
-Hero Banner 
-
-
-*/
-.heroban {
-background-image: url('http://drive.google.com/uc?export=view&id=1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC');
-background-position: center;
-border-radius: 3rem;
-/*
-https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=sharing
-https://drive.google.com/file/d/1dJKRL1G1IXv3vBOmuPbpMtdCCAU7VdCC/view?usp=sharing*/
-background-size: cover; 
-min-height: 20rem;
-display: flex;
-
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-
-
-
-/*
-Navigation Bar
-
-*/
-
-nav { 
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 16px;
-    padding: 1rem
-   
-}
-nav > a {
-    text-decoration: none;
-
-}
-nav > a:hover {
-    color: brown;
-}
-
-/*
-Secionns
-
-*/
-
-section {
-    padding: 1rem;
-}
-
-
+    background-color : #d571d6;
+} */
 
 footer {
     padding: 1rem;
@@ -105,7 +32,7 @@ background-image: url('http://drive.google.com/uc?export=view&id=1rV1P7mQ3FTo1ei
 background-position: center;
 border-radius: 2rem;
 background-size: cover; 
-border: 3px solid #cf7849;
+border: 2px solid #cf7849;
 min-height: 6rem;
 display: flex;
 justify-content: center;
@@ -126,12 +53,17 @@ background-image: url('http://drive.google.com/uc?export=view&id=11G4AYXvUPuQHuY
 background-position: center;
 border-radius: 2rem;
 background-size: cover; 
-border: 3px solid #cf7849;
+border: 2px solid #cf7849;
 min-height: 6rem;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+}
+.network-banner:hover{
+    transform: scale(1.1);
+    transform-origin: center;
+    box-shadow: rgba(214, 85, 209, 0.25) 5px 5px 10px;
 }
 
 .fflogs-banner {
